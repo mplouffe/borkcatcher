@@ -1,0 +1,24 @@
+{
+  "name": "borkcatcher",
+  "version": "1.0.0",
+  "description": "A simple javascript game to make me happy.",
+  "private": true,
+  "scripts": {
+    "start": "node server/server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Matheu Plouffe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.1",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-middleware": "^4.1.0"
+  }
+}
