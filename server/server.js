@@ -22,5 +22,5 @@ app.use(
 // app.use(express.static(publicPath));
 
 app.listen(port, (err) => {
-    console.log(`GameToy is up on localhost:${port}`);
+    console.log(`BorkCatcher is up on localhost:${port}`);
 });
